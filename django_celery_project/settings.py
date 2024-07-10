@@ -153,7 +153,7 @@ DEFAULT_FROM_EMAIL = 'Celery <mktiwari.jdev@gmail.com>'
 CELERY_TASK_ROUTES = {
     'sendmail_app.task.send_mail_batch': {
         'queue': 'batch',
-        'rate_limit': '10/m'  
+        'rate_limit': '11/m'  
     },
 }
 
